@@ -1,0 +1,395 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: turboSMTP\n"
+"POT-Creation-Date: 2017-02-22 12:30+0100\n"
+"PO-Revision-Date: 2017-02-22 12:31+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: turbo-smtp-plugin.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class/TSAjaxListTable.php:73 turbo-admin-sections.php:65
+msgid "Subject"
+msgstr "Oggetto"
+
+#: class/TSAjaxListTable.php:75
+msgid "From"
+msgstr "Da"
+
+#: class/TSAjaxListTable.php:76
+msgid "To"
+msgstr "A"
+
+#: class/TSAjaxListTable.php:77
+msgid "Date / Time"
+msgstr "Data / ora"
+
+#: class/TSAjaxListTable.php:78 turbo-admin-sections.php:66
+msgid "Error description"
+msgstr "Motive errore"
+
+#: class/TSAjaxListTable.php:187
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 email"
+msgstr[1] "%s email"
+
+#: class/TSAjaxListTable.php:236
+msgid "sent email"
+msgstr "email inviata"
+
+#: class/TSAjaxListTable.php:237
+msgid "sent emails"
+msgstr "Email inviate"
+
+#: class/TurboApiClient.php:7
+#, php-format
+msgid "Error %d: %s"
+msgstr "Errore %d: %s"
+
+#: ts_post.php:15 ts_post.php:66 ts_post.php:149 ts_post.php:174
+#: ts_post.php:216 ts_post.php:226
+msgid "Error"
+msgstr "Errore"
+
+#: ts_post.php:15 ts_post.php:66 ts_post.php:149 ts_post.php:174
+msgid "This request is not allowed, Please try again!"
+msgstr "Questa richesta non è consentita, prova di nuovo!"
+
+#: ts_post.php:93
+msgid "Sender email address is invalid"
+msgstr "Il campo Indirizzo email mittente deve contenere un indirizzo valido."
+
+#: ts_post.php:103
+msgid "Sender name must be not empty"
+msgstr "Il campo Nome mittente non può essere vuoto."
+
+#: ts_post.php:129
+msgid "Options successfully saved."
+msgstr "Opzioni salvate con successo."
+
+#: ts_post.php:202
+msgid "Test email was sent successfully"
+msgstr "email inviata"
+
+#: ts_post.php:216
+msgid ""
+"There were one or more errors, check your turboSMTP configuration or if you "
+"have installed other SMTP plugin."
+msgstr ""
+"Ci sono stati alcuni errori, controlla la tua configurazione turboSMTP o che "
+"non hai attivo un altro plugin SMTP."
+
+#: ts_post.php:226
+msgid "Recipient must be not empty"
+msgstr "Il campo Nome mittente non può essere vuoto."
+
+#: turbo-admin-sections.php:7 turbo-admin-sections.php:9
+msgid "turboSMTP integration and configuration"
+msgstr "Integrazione e configurazione di turboSMTP"
+
+#: turbo-admin-sections.php:9
+msgid "Configuration"
+msgstr "Configurazione"
+
+#: turbo-admin-sections.php:13
+msgid "Report"
+msgstr "Report"
+
+#: turbo-admin-sections.php:14 turbo-logout-section.php:13
+msgid "Logout"
+msgstr "Logout"
+
+#: turbo-admin-sections.php:23 turbo-admin-sections.php:40
+#: turbo-admin-sections.php:89
+msgid "You don't have the right permission to view this page!"
+msgstr "Non hai permessi sufficienti per visualizzare questa pagina!"
+
+#: turbo-admin-sections.php:56
+msgid "Queue"
+msgstr "In coda"
+
+#: turbo-admin-sections.php:57
+msgid "Delivered"
+msgstr "Consegnate"
+
+#: turbo-admin-sections.php:58
+msgid "Bounced"
+msgstr "Bounce"
+
+#: turbo-admin-sections.php:59
+msgid "Opened"
+msgstr "Aperte"
+
+#: turbo-admin-sections.php:60
+msgid "Click"
+msgstr "Click"
+
+#: turbo-admin-sections.php:61
+msgid "Unsubscribes"
+msgstr "Cancellazioni"
+
+#: turbo-admin-sections.php:62
+msgid "Spam"
+msgstr "Spam"
+
+#: turbo-admin-sections.php:63
+msgid "Total"
+msgstr "Totale"
+
+#: turbo-admin-sections.php:64
+msgid "No results to show"
+msgstr "Nessun risultato da mostrare!"
+
+#: turbo-admin-sections.php:68
+msgid "Today"
+msgstr "Oggi"
+
+#: turbo-admin-sections.php:69
+msgid "Yesterday"
+msgstr "Ieri"
+
+#: turbo-admin-sections.php:70
+msgid "Last week"
+msgstr "Ultima settimana"
+
+#: turbo-admin-sections.php:71
+msgid "Last month"
+msgstr "Ultimo mese"
+
+#: turbo-admin-sections.php:72
+msgid "Previous month"
+msgstr "Mese precedente"
+
+#: turbo-admin-sections.php:73
+msgid "Current year"
+msgstr "Anno in corso"
+
+#: turbo-admin-sections.php:74
+msgid "Last year"
+msgstr "Ultimo anno"
+
+#: turbo-admin-sections.php:75
+msgid "Confirm"
+msgstr "Conferma"
+
+#: turbo-admin-sections.php:76
+msgid "Clear"
+msgstr "Reset"
+
+#: turbo-admin-sections.php:77
+msgid "Cancel"
+msgstr "Annulla"
+
+#: turbo-config-section.php:19
+msgid "Register"
+msgstr "Registrati"
+
+#: turbo-config-section.php:20
+msgid "Send 6000 emails per months"
+msgstr "Invia 6000 email al mese"
+
+#: turbo-config-section.php:21
+msgid "free"
+msgstr "gratuitamente"
+
+#: turbo-config-section.php:22
+msgid "up to 200 per day"
+msgstr "fino a 200 al giorno"
+
+#: turbo-config-section.php:23
+msgid "No purchase required."
+msgstr "Nessun obbligo d'acquisto."
+
+#: turbo-config-section.php:24
+msgid "No debit card"
+msgstr "No carta di credito"
+
+#: turbo-config-section.php:28
+msgid "read more"
+msgstr "scopri di più"
+
+#: turbo-config-section.php:44
+msgid "Email"
+msgstr "Email"
+
+#: turbo-config-section.php:53
+msgid "Password"
+msgstr "Password"
+
+#: turbo-config-section.php:67
+msgid "Login"
+msgstr "Login"
+
+#: turbo-config-section.php:85 turbo-logout-section.php:8
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: turbo-config-section.php:88
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: turbo-config-section.php:92
+msgid "Sender email configuration"
+msgstr "Invio email"
+
+#: turbo-config-section.php:98
+msgid "Sender name"
+msgstr "Nome mittente"
+
+#: turbo-config-section.php:107
+msgid "Sender email address"
+msgstr "Indirizzo email mittente"
+
+#: turbo-config-section.php:116
+msgid "turboSMTP parameters"
+msgstr "Parametri turboSMTP"
+
+#: turbo-config-section.php:122
+msgid "SMTP Port"
+msgstr "Porta SMTP"
+
+#: turbo-config-section.php:130
+msgid ""
+"Use port 25, 587 or 2525 for non encrypted connections, 465 or 25025 for "
+"encrypted connections"
+msgstr ""
+"Usa la porta 25, 587 o 2525 per connessioni non cifrate, 465 o 25025 per "
+"connessioni cifrate"
+
+#: turbo-config-section.php:135
+msgid "Encryption"
+msgstr "Crittografia"
+
+#: turbo-config-section.php:142
+msgid "No encryption"
+msgstr "Nessuna crittografia"
+
+#: turbo-config-section.php:149
+msgid "Use SSL"
+msgstr "Usa SSL"
+
+#: turbo-config-section.php:159
+msgid "Save changes"
+msgstr "Salva le modifiche"
+
+#: turbo-config-section.php:173
+msgid "Send test email"
+msgstr "Invio email di test"
+
+#: turbo-config-section.php:179
+msgid "Recipient"
+msgstr "Destinatario"
+
+#: turbo-config-section.php:185
+msgid "Write your email address and click on \"Send test\""
+msgstr "Scrivi un indirizzo email qui e clicca su \"Invia test\""
+
+#: turbo-config-section.php:190
+msgid "Email sent with WordPress and turboSMTP"
+msgstr "Email inviata con Wordpress e turboSMTP"
+
+#: turbo-config-section.php:191
+msgid "If you read this email means that turboSMTP plugin is working properly."
+msgstr ""
+"Se leggi questa email, vuol dire che il plugin turboSMTP funziona "
+"correttamente."
+
+#: turbo-config-section.php:195
+msgid "Send test"
+msgstr "Invia test"
+
+#: turbo-logout-section.php:16
+msgid ""
+"You are going to logout: if you proceed you’ll have to re-configure your "
+"account to use all of the features, do you want to proceed?"
+msgstr ""
+"Stai per effettuare il logout: se procedi dovrai configurare nuovamente il "
+"tuo account per utilizzare tutte le funzionalità, vuoi continuare?"
+
+#: turbo-logout-section.php:22
+msgid "Proceed"
+msgstr "Procedi"
+
+#. Description of the plugin/theme
+#: turbo-smtp-plugin.php:14
+msgid "Easily send emails from your WordPress blog using turboSMTP's services"
+msgstr ""
+"Invia facilmente le email dal tuo sito web o blog WordPress usando turboSMTP"
+
+#: turbo-smtp-plugin.php:181
+msgid "This plugin is powered by"
+msgstr "Questo plugin è stato realizzato da"
+
+#: turbo-stats-section.php:31
+msgid "Loading analytics data..."
+msgstr "Caricamento dei dati di analisi in corso..."
+
+#: turbo-stats-section.php:49
+msgid "No results found for your temporal choice."
+msgstr "Non è presente alcun risultato nella fascia temporale scelta"
+
+#: turbo-stats-section.php:59
+msgid "total sent emails"
+msgstr "email totali inviate"
+
+#: turbo-stats-section.php:77
+msgid "delivered emails"
+msgstr "email consegnate"
+
+#: turbo-stats-section.php:94
+msgid "opened emails"
+msgstr "email aperte"
+
+#: turbo-stats-section.php:111
+msgid "clicked emails"
+msgstr "email cliccate"
+
+#: turbo-stats-section.php:127
+msgid "queued"
+msgstr "in coda"
+
+#: turbo-stats-section.php:135
+msgid "unsubscribes"
+msgstr "cancellazioni"
+
+#: turbo-stats-section.php:143
+msgid "spam reports"
+msgstr "segnalazioni spam"
+
+#: turbo-stats-section.php:151
+msgid "bounces"
+msgstr "bounce"
+
+#: turbo-stats-section.php:169
+msgid "Loading emails history..."
+msgstr "Caricamento storico email in corso..."
+
+#. Plugin Name of the plugin/theme
+msgid "turboSMTP"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.serversmtp.com/en/smtp-wordpress-configure"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "dueclic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.dueclic.com"
+msgstr ""
